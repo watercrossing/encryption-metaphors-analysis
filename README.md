@@ -8,18 +8,16 @@ This archive contains the survey itself, the (annonymized) raw data and the func
 
 ## Content
 
-`requirements.txt`: The pip requirements file that can be used to recreate the exact setup (use `pip install -r requirements.txt`, preferably within a virtualenv)
-
-`data/E2E-coding-toPublish.csv`: The codes assigned by three coders to the end-to-end encryption statement                    
-`data/Encryption-coding-toPublish.csv`: The codes assigned by three coders to the encryption statements
-`data/survey-toPublish.csv` Raw, valid responses to the survey
-
-`metaphor-agreement-topublish.ipynb`: The IPython notebook containing the agreement analysis
-`metaphor-agreement-topublish.html`: A rendered version of the IPython notebook containing the agreement analysis
-`survey-analysis-to-publish.ipynb`: The IPython notebook containing the survey analysis
-`survey-analysis-to-publish.html`: A rendered version of the IPython notebook containing the survey analysis
-
-`survey.htm`: The full survey
+Contained in this repository are the following files:
+- `requirements.txt`: The pip requirements file that can be used to recreate the exact setup (use `pip install -r requirements.txt`, preferably within a virtualenv)
+- `data/E2E-coding-toPublish.csv`: The codes assigned by three coders to the end-to-end encryption statement
+- `data/Encryption-coding-toPublish.csv`: The codes assigned by three coders to the encryption statements
+- `data/survey-toPublish.csv` Raw, valid responses to the survey
+- `metaphor-agreement-topublish.ipynb`: The IPython notebook containing the agreement analysis
+- `metaphor-agreement-topublish.html`: A rendered version of the IPython notebook containing the agreement analysis
+- `survey-analysis-to-publish.ipynb`: The IPython notebook containing the survey analysis
+- `survey-analysis-to-publish.html`: A rendered version of the IPython notebook containing the survey analysis
+- `survey.htm`: The full survey
 
 To reproduce the results with python 3.6:
 - unpack this zip file and enter the directory
@@ -28,7 +26,7 @@ To reproduce the results with python 3.6:
 - install packages (`pip install -r requirements.txt`)
 - run IPython notebook server: (`jupyter notebook`)
 - your browser should start with jupyter interface
-- open the data-analysis-topublish.ipynb notebook
+- open the notebooks `metaphor-agreement-topublish.ipynb` and `survey-analysis-to-publish.ipynb`
 - select 'Cell' and 'Run All'.
 - wait for graphs and tables to be produced.
 
